@@ -1,3 +1,7 @@
 export default function AddPlayer() {
-  return console.warn('add player');
+  return (
+    <div>
+      <h1>Add a Player</h1>
+    </div>
+  );
 }
