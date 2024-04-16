@@ -22,7 +22,7 @@ function PlayerCard({ playerObj, onUpdate }) {
         <p className="card-text bold">{playerObj.role}</p>
         {/* DYNAMIC LINK TO VIEW THE BOOK DETAILS  */}
         {/* DYNAMIC LINK TO EDIT THE BOOK DETAILS  */}
-        <Link href={`/book/edit/${playerObj.firebaseKey}`} passHref>
+        <Link href={`/player/edit/${playerObj.firebaseKey}`} passHref>
           <Button variant="info">EDIT</Button>
         </Link>
         <Button variant="danger" onClick={deleteThisPlayer} className="m-2">
