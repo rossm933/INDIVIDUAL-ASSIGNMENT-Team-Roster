@@ -37,7 +37,7 @@ function PlayerForm({ obj }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (obj.firebaseKey) {
-      updatePlayer(formInput).then(() => router.push(`/player/${obj.firebaseKey}`));
+      updatePlayer(formInput).then(() => router.push('/'));
     } else {
       const payload = { ...formInput, uid: user.uid };
       createPlayer(payload).then(({ name }) => {
@@ -59,7 +59,7 @@ function PlayerForm({ obj }) {
           type="text"
           placeholder="Enter Name"
           name="name"
-          value={formInput.title}
+          value={formInput.name}
           onChange={handleChange}
           required
         />
