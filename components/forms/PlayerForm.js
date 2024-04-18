@@ -90,7 +90,7 @@ function PlayerForm({ obj }) {
           <option disabled selected value="">Select an Option</option>
           <option value="Center">Center</option>
           <option value="Forward">Forward</option>
-          <option value="Defenseman">Defenseman</option>
+          <option value="Defense">Defense</option>
           <option value="Goalie">Goalie</option>
 
         </Form.Select>
