@@ -15,7 +15,10 @@ function PlayerCard({ playerObj, onUpdate }) {
   };
 
   return (
-    <Card style={{ width: '18rem', margin: '10px' }}>
+    <Card style={{
+      color: 'yellow', backgroundColor: 'black', width: '18rem', margin: '10px',
+    }}
+    >
       <Card.Img variant="top" src={playerObj.image} alt={playerObj.name} style={{ height: '400px' }} />
       <Card.Body>
         <Card.Title>{playerObj.name}</Card.Title>

@@ -30,7 +30,7 @@ export default function SearchBar({ onKeyUp }) {
           aria-label="Search"
           /* value={query} */
         />
-        <Button variant="outline-success">Search</Button>
+        <Button style={{ backgroundColor: 'black', color: 'white' }} variant="outline-success">Search</Button>
       </Form>
     </div>
   );
