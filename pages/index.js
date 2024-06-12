@@ -39,7 +39,7 @@ function Home() {
   return (
     <div>
       <SearchBar onKeyUp={filterItems} />
-      <h1>Team</h1>
+      <h1>Players</h1>
       <div className="d-flex flex-wrap">
         {/* map over players here using PlayerCard component */}
         {filteredPlayers.map((player) => (
