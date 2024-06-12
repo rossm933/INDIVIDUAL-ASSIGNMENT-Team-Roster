@@ -23,8 +23,6 @@ function PlayerCard({ playerObj, onUpdate }) {
       <Card.Body>
         <Card.Title>{playerObj.name}</Card.Title>
         <p className="card-text bold">{playerObj.role}</p>
-        {/* DYNAMIC LINK TO VIEW THE BOOK DETAILS  */}
-        {/* DYNAMIC LINK TO EDIT THE BOOK DETAILS  */}
         <Link href={`/player/edit/${playerObj.firebaseKey}`} passHref>
           <Button variant="info">EDIT</Button>
         </Link>
