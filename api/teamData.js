@@ -68,6 +68,49 @@ const updateTeam = (payload) => new Promise((resolve, reject) => {
     .then((data) => resolve(data))
     .catch(reject);
 });
+// API CALL TO DELETE TEAM
+const deleteSingleTeam = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/teams/${firebaseKey}.json`, {
+    method: 'DELETE',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
+
+// API CALL TO GET SING TEAM'S BOOKS
+const getTeamsPlayers = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/players.json?orderBy="team_id"&equalTo="${firebaseKey}"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(Object.values(data)))
+    .catch(reject);
+});
+
+const getPublicTeams = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/teams.json?orderBy="public"&equalTo=true`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      if (data) {
+        resolve(Object.values(data));
+      } else {
+        resolve([]);
+      }
+    })
+    .catch(reject);
+});
 
 export {
   getTeams,
@@ -75,4 +118,7 @@ export {
   deleteTeam,
   getSingleTeam,
   updateTeam,
+  deleteSingleTeam,
+  getTeamsPlayers,
+  getPublicTeams,
 };

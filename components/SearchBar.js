@@ -1,4 +1,4 @@
-import { Button, Form } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 /* import { useState } from 'react'; */
 
@@ -30,7 +30,6 @@ export default function SearchBar({ onKeyUp }) {
           aria-label="Search"
           /* value={query} */
         />
-        <Button style={{ backgroundColor: 'black', color: 'white' }} variant="outline-success">Search</Button>
       </Form>
     </div>
   );

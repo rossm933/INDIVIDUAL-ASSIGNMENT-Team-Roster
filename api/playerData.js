@@ -68,6 +68,15 @@ const updatePlayer = (payload) => new Promise((resolve, reject) => {
     .then((data) => resolve(data))
     .catch(reject);
 });
+const searchPlayers = async (uid, searchValue) => {
+  const allPlayers = await getPlayers(uid);
+  const filteredPlayers = await allPlayers.filter((member) => (
+    member.name.toLowerCase().includes(searchValue)
+    || member.role.toLowerCase().includes(searchValue)
+  ));
+
+  return { members: filteredPlayers };
+};
 
 export {
   getPlayers,
@@ -75,4 +84,5 @@ export {
   deletePlayer,
   getSinglePlayer,
   updatePlayer,
+  searchPlayers,
 };

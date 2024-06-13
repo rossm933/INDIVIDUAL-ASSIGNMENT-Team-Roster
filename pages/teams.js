@@ -1,9 +1,9 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useAuth } from '../utils/context/authContext';
-import { getPublicTeams, getTeams } from '../api/teamData';
 import TeamCard from '../components/TeamCard';
+import { getPublicTeams, getTeams } from '../api/teamData';
 
-export default function Home() {
+export default function Teams() {
   const [publicTeams, setPublicTeams] = useState([]);
   const [privateTeams, setPrivateTeams] = useState([]);
 
@@ -33,7 +33,7 @@ export default function Home() {
         ))}
       </div>
       <h3>My Teams</h3>
-      <div className="d-flex flex-wrap">
+      <div className="d-flex flex-wrap justify-content-center align-items-center">
         {privateTeams.map((team) => (
           <TeamCard teamObj={team} key={team.firebaseKey} onUpdate={getAllPrivateTeams} />
         ))}
