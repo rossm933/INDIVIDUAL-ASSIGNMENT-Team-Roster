@@ -1,0 +1,57 @@
+{
+  "-O-8hQdFhooeufbOEaWi": {
+    "uid": "S82dweCL5ybEWo9BE9hv6rwwoRe2",
+    "team_name": "Stars",
+    "city": "Dallas",
+    "owner": "Ross Morgan",
+    "firebaseKey": "-O-8hQdFhooeufbOEaWi",
+    "owner_email": "ross.morgan933@gmail.com",
+    "state": "Texas",
+    "logo": "https://th.bing.com/th/id/OIP.kkK0yFMESvQmg21H-Fc9dgAAAA?rs=1&pid=ImgDetMain",
+    "public": false
+  },
+  "-O-8hQdHHLGGTRqV4t92": {
+    "uid": "S82dweCL5ybEWo9BE9hv6rwwoRe2",
+    "team_name": "Penguins",
+    "city": "Pittsburgh",
+    "owner": "Ross Morgan",
+    "firebaseKey": "-O-8hQdHHLGGTRqV4t92",
+    "owner_email": "ross.morgan933@gmail.com",
+    "state": "Pennslyvania",
+    "logo": "https://1000logos.net/wp-content/uploads/2018/03/Pittsburgh-Penguins-Logo-1536x864.jpg",
+    "public": true
+  },
+  "-O-8hQdKOH4p1gpf-WJB": {
+    "uid": "S82dweCL5ybEWo9BE9hv6rwwoRe2",
+    "team_name": "Mighty Ducks",
+    "city": "Anehiem",
+    "owner": "Ross Morgan",
+    "firebaseKey": "-O-8hQdKOH4p1gpf-WJB",
+    "owner_email": "ross.morgan933@gmail.com",
+    "state": "California",
+    "logo": "https://th.bing.com/th/id/R.f6dc570d81f575e07fe2a9ee48cf320d?rik=Njudx%2biJ8RJk8Q&riu=http%3a%2f%2fimg2.wikia.nocookie.net%2f__cb20140810222650%2fdisney%2fimages%2f0%2f0d%2fMighty_ducks_primary_logo.png&ehk=8zVVmZnNd2wVbLH4GS3RTUZWKcsQ4TT60ey9vyRxZVI%3d&risl=&pid=ImgRaw&r=0",
+    "public": true
+  },
+  "-O-8hQdMAqP05_0BGyLw": {
+    "uid": "S82dweCL5ybEWo9BE9hv6rwwoRe2",
+    "team_name": "Red Wings",
+    "city": "Detroit",
+    "owner": "Ross Morgan",
+    "firebaseKey": "-O-8hQdMAqP05_0BGyLw",
+    "owner_email": "ross.morgan933@gmail.com",
+    "state": "Michigan",
+    "logo": "https://whitebilliards.com/cdn/shop/files/521-4005_redwings_540x.jpg?v=1683827137",
+    "public": true
+  },
+  "-O-8hQdO_VALyMcWMjnS": {
+    "uid": "S82dweCL5ybEWo9BE9hv6rwwoRe2",
+    "team_name": "Golden Knights",
+    "city": "Las Vegas",
+    "owner": "Ross Morgan",
+    "firebaseKey": "-O-8hQdO_VALyMcWMjnS",
+    "owner_email": "ross.morgan933@gmail.com",
+    "state": "Nevada",
+    "logo": "https://i.ebayimg.com/images/g/J0YAAOSwFAdfOu1V/s-l1600.webp",
+    "public": true
+  }
+}

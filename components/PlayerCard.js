@@ -15,18 +15,18 @@ function PlayerCard({ playerObj, onUpdate }) {
   };
 
   return (
-    <Card style={{
-      color: 'yellow', backgroundColor: 'black', width: '18rem', margin: '10px',
-    }}
+    <Card
+      className="d-flex flex-wrap justify-content-center align-items-center"
+      style={{
+        color: 'black', backgroundColor: 'gray', width: '18rem', margin: '10px', border: 'solid 5px black',
+      }}
     >
       <Card.Img variant="top" src={playerObj.image} alt={playerObj.name} style={{ height: '400px' }} />
       <Card.Body>
         <Card.Title>{playerObj.name}</Card.Title>
         <p className="card-text bold">{playerObj.role}</p>
-        {/* DYNAMIC LINK TO VIEW THE BOOK DETAILS  */}
-        {/* DYNAMIC LINK TO EDIT THE BOOK DETAILS  */}
         <Link href={`/player/edit/${playerObj.firebaseKey}`} passHref>
-          <Button variant="info">EDIT</Button>
+          <Button variant="secondary">EDIT</Button>
         </Link>
         <Button variant="danger" onClick={deleteThisPlayer} className="m-2">
           DELETE

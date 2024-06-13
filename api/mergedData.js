@@ -1,13 +1,20 @@
-import { getPlayers } from './playerData';
+import { deletePlayer } from './playerData';
+import { deleteSingleTeam, getSingleTeam, getTeamsPlayers } from './teamData';
 
-const searchPlayers = async (uid, searchValue) => {
-  const allPlayers = await getPlayers(uid);
-  const filteredPlayers = await allPlayers.filter((member) => (
-    member.name.toLowerCase().includes(searchValue)
-    || member.role.toLowerCase().includes(searchValue)
-  ));
+const deleteTeamsAndPlayers = (teamId) => new Promise((resolve, reject) => {
+  getTeamsPlayers(teamId).then((playersArray) => {
+    const deletePlayersPromises = playersArray.map((player) => deletePlayer(player.firebaseKey));
 
-  return { members: filteredPlayers };
-};
+    Promise.all(deletePlayersPromises).then(() => {
+      deleteSingleTeam(teamId).then(resolve);
+    });
+  }).catch((error) => reject(error));
+});
 
-export default searchPlayers;
+const viewTeamDetails = (teamFirebaseKey) => new Promise((resolve, reject) => {
+  Promise.all([getSingleTeam(teamFirebaseKey), getTeamsPlayers(teamFirebaseKey)]).then(([teamObject, teamPlayersArray]) => {
+    resolve({ ...teamObject, players: teamPlayersArray });
+  }).catch((error) => reject(error));
+});
+
+export { deleteTeamsAndPlayers, viewTeamDetails };

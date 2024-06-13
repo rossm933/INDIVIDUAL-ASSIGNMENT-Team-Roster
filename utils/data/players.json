@@ -4,34 +4,87 @@
     "name": "Sidney Crosby",
     "role": "Center",
     "firebaseKey": "-NvYvBiS5wj2YWcqouyQ",
-    "image": "https://9b16f79ca967fd0708d1-2713572fef44aa49ec323e813b06d2d9.ssl.cf2.rackcdn.com/1140x_a10-7_cTC/Canucks-Penguins-Hockey-8-1708089740.jpg"
+    "image": "https://9b16f79ca967fd0708d1-2713572fef44aa49ec323e813b06d2d9.ssl.cf2.rackcdn.com/1140x_a10-7_cTC/Canucks-Penguins-Hockey-8-1708089740.jpg",
+    "team_id": "-O-8hQdHHLGGTRqV4t92"
   },
   "-NvYvBiT4La5Fhye_r-R": {
     "uid": "S82dweCL5ybEWo9BE9hv6rwwoRe2",
     "name": "Tristan Jarry",
     "role": "Goalie",
     "firebaseKey": "-NvYvBiT4La5Fhye_r-R",
-    "image": "https://cdn.vox-cdn.com/thumbor/sNcAZ5_IXah_vtTWXDcO3M1wufs=/0x0:3000x2132/1200x800/filters:focal(1401x487:1881x967)/cdn.vox-cdn.com/uploads/chorus_image/image/70995119/1392961303.0.jpg"
+    "image": "https://cdn.vox-cdn.com/thumbor/sNcAZ5_IXah_vtTWXDcO3M1wufs=/0x0:3000x2132/1200x800/filters:focal(1401x487:1881x967)/cdn.vox-cdn.com/uploads/chorus_image/image/70995119/1392961303.0.jpg",
+    "team_id": "-O-8hQdHHLGGTRqV4t92"
   },
   "-NvYvBiUkRLXaG0dQ0lB": {
     "uid": "S82dweCL5ybEWo9BE9hv6rwwoRe2",
     "name": "Bryan Rust",
     "role": "Right Wing",
     "firebaseKey": "-NvYvBiUkRLXaG0dQ0lB",
-    "image": "https://cdn.vox-cdn.com/thumbor/EgEN9OZaovPHpgGENRaMbRBPiS0=/0x0:3000x1929/1200x800/filters:focal(1260x725:1740x1205)/cdn.vox-cdn.com/uploads/chorus_image/image/71679105/1245037185.0.jpg"
+    "image": "https://cdn.vox-cdn.com/thumbor/EgEN9OZaovPHpgGENRaMbRBPiS0=/0x0:3000x1929/1200x800/filters:focal(1260x725:1740x1205)/cdn.vox-cdn.com/uploads/chorus_image/image/71679105/1245037185.0.jpg",
+    "team_id": "-O-8hQdHHLGGTRqV4t92"
   },
   "-NvYvBiWryxSfghEzTop": {
     "uid": "S82dweCL5ybEWo9BE9hv6rwwoRe2",
     "name": "Michael Bunting",
     "role": "Left Wing",
     "firebaseKey": "-NvYvBiWryxSfghEzTop",
-    "image": "https://media.d3.nhle.com/image/private/t_ratio16_9-size20/prd/wpy6oh7hnl8f61eiijhv"
+    "image": "https://media.d3.nhle.com/image/private/t_ratio16_9-size20/prd/wpy6oh7hnl8f61eiijhv",
+    "team_id": "-O-8hQdHHLGGTRqV4t92"
   },
   "-NvYvBiXuzGZLnZ0kEwv": {
     "uid": "S82dweCL5ybEWo9BE9hv6rwwoRe2",
     "name": "Erik Karlsson",
     "role": "Defense",
     "firebaseKey": "-NvYvBiXuzGZLnZ0kEwv",
-    "image": "https://i.ytimg.com/vi/VED38HP7vxk/maxresdefault.jpg"
+    "image": "https://i.ytimg.com/vi/VED38HP7vxk/maxresdefault.jpg",
+    "team_id": "-O-8hQdHHLGGTRqV4t92"
+  },
+  "-O-8nRcwqfizkuhpnA0g": {
+    "uid": "S82dweCL5ybEWo9BE9hv6rwwoRe2",
+    "name": "Jack Eichel",
+    "role": "Center",
+    "firebaseKey": "-O-8nRcwqfizkuhpnA0g",
+    "image": "https://images2.minutemediacdn.com/image/fetch/w_2000,h_2000,c_fit/https://puckprose.com/wp-content/uploads/imagn-images/2017/07/19126493.jpeg",
+    "team_id": "-O-8hQdO_VALyMcWMjnS"
+  },
+  "-O-8nRcxStDpQ-P3Ol7Q": {
+    "uid": "S82dweCL5ybEWo9BE9hv6rwwoRe2",
+    "name": "Dylan Larkin",
+    "role": "Center",
+    "firebaseKey": "-O-8nRcxStDpQ-P3Ol7Q",
+    "image": "https://th.bing.com/th/id/OIP.W-tbgMVmDHEs7LvoGOTKeAHaHa?rs=1&pid=ImgDetMain",
+    "team_id": "-O-8hQdMAqP05_0BGyLw"
+  },
+  "-O-8nRcylV3A2Q3ZLaUq": {
+    "uid": "S82dweCL5ybEWo9BE9hv6rwwoRe2",
+    "name": "Jake Oettinger",
+    "role": "Goalie",
+    "firebaseKey": "-O-8nRcylV3A2Q3ZLaUq",
+    "image": "https://th.bing.com/th/id/OIP.Dwy4cCeGlXnmlK70o5y-kwAAAA?rs=1&pid=ImgDetMain",
+    "team_id": "-O-8hQdFhooeufbOEaWi"
+  },
+  "-O-8nRcylV3A2Q3ZLaUr": {
+    "uid": "S82dweCL5ybEWo9BE9hv6rwwoRe2",
+    "name": "Trevor Zygras",
+    "role": "Forward",
+    "firebaseKey": "-O-8nRcylV3A2Q3ZLaUr",
+    "image": "https://th.bing.com/th/id/R.8b7d89588b61e6c344cc89554b9b27b9?rik=1ihKtS6XrJ612Q&pid=ImgRaw&r=0",
+    "team_id": "-O-8hQdKOH4p1gpf-WJB"
+  },
+  "-O-8nRczLgw_i2f7qzaK": {
+    "uid": "S82dweCL5ybEWo9BE9hv6rwwoRe2",
+    "name": "John Gibson",
+    "role": "Goalie",
+    "firebaseKey": "-O-8nRczLgw_i2f7qzaK",
+    "image": "https://th.bing.com/th/id/R.ed5b72f1c6f7abe3ddca09e800581f2e?rik=SXrkssMjGvaYbA&pid=ImgRaw&r=0",
+    "team_id": "-O-8hQdKOH4p1gpf-WJB"
+  },
+  "-O-8nRd-1NqtNgsdgJr0": {
+    "uid": "S82dweCL5ybEWo9BE9hv6rwwoRe2",
+    "name": "Miro Heiskanen",
+    "role": "Defense",
+    "firebaseKey": "-O-8nRd-1NqtNgsdgJr0",
+    "image": "https://th.bing.com/th/id/OIP.ot8sWAt2lO-cN5qWAaAqbgHaEc?rs=1&pid=ImgDetMain",
+    "team_id": "-O-8hQdFhooeufbOEaWi"
   }
 }
