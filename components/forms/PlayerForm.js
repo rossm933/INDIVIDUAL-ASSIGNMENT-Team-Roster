@@ -54,7 +54,6 @@ function PlayerForm({ obj }) {
     <Form onSubmit={handleSubmit}>
       <h2 className="text-black mt-5">{obj.firebaseKey ? 'Update' : 'Create'} a New Player</h2>
 
-      {/* TITLE INPUT  */}
       <FloatingLabel controlId="floatingInput1" label="Player Name" className="mb-3">
         <Form.Control
           type="text"
@@ -66,7 +65,6 @@ function PlayerForm({ obj }) {
         />
       </FloatingLabel>
 
-      {/* IMAGE INPUT  */}
       <FloatingLabel controlId="floatingInput2" label="Player Image" className="mb-3">
         <Form.Control
           type="url"
@@ -78,7 +76,6 @@ function PlayerForm({ obj }) {
         />
       </FloatingLabel>
 
-      {/* AUTHOR SELECT  */}
       <FloatingLabel controlId="floatingSelect" label="Role">
         <Form.Select
           aria-label="Role"
@@ -118,7 +115,7 @@ function PlayerForm({ obj }) {
             }
         </Form.Select>
       </FloatingLabel>
-      {/* SUBMIT BUTTON  */}
+
       <Button type="submit">{obj.firebaseKey ? 'Update' : 'Create'} Player</Button>
     </Form>
   );

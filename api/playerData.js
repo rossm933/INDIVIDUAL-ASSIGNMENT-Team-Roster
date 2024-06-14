@@ -1,5 +1,4 @@
 import { clientCredentials } from '../utils/client';
-// API CALLS FOR PLAYERS
 
 const endpoint = clientCredentials.databaseURL;
 
@@ -15,7 +14,6 @@ const getPlayers = (uid) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-// TODO: DELETE PLAYER
 const deletePlayer = (firebaseKey) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/players/${firebaseKey}.json`, {
     method: 'DELETE',
@@ -28,7 +26,6 @@ const deletePlayer = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-// TODO: GET SINGLE PLAYER
 const getSinglePlayer = (firebaseKey) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/players/${firebaseKey}.json`, {
     method: 'GET',
@@ -41,7 +38,6 @@ const getSinglePlayer = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-// TODO: CREATE PLAYER
 const createPlayer = (payload) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/players.json`, {
     method: 'POST',
@@ -55,7 +51,6 @@ const createPlayer = (payload) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-// TODO: UPDATE PLAYER
 const updatePlayer = (payload) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/players/${payload.firebaseKey}.json`, {
     method: 'PATCH',
