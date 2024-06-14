@@ -15,6 +15,7 @@ NHL-Rosters is an application that allows a user to create players to add to the
 - User is able to delete a player from the team and if the user deletes a team, all the players for that team will also be deleted. 
 
 ## Video Walkthrough of NHL-Rosters
+https://www.loom.com/share/2127cab223164c2d80d756c10fdd8a05?sid=06df1103-32e7-4e2b-8d19-0c4abe3fe659
 
 ## Relevant Links
 - [Check out the deployed site](https://team-roster-rm.netlify.app/)
