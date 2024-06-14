@@ -1,5 +1,4 @@
 import { clientCredentials } from '../utils/client';
-// API CALLS FOR PLAYERS
 
 const endpoint = clientCredentials.databaseURL;
 
@@ -15,7 +14,6 @@ const getTeams = (uid) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-// TODO: DELETE TEAM
 const deleteTeam = (firebaseKey) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/teams/${firebaseKey}.json`, {
     method: 'DELETE',
@@ -28,7 +26,6 @@ const deleteTeam = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-// TODO: GET SINGLE TEAM
 const getSingleTeam = (firebaseKey) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/teams/${firebaseKey}.json`, {
     method: 'GET',
@@ -41,7 +38,6 @@ const getSingleTeam = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-// TODO: CREATE TEAM
 const createTeam = (payload) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/teams.json`, {
     method: 'POST',
@@ -55,7 +51,6 @@ const createTeam = (payload) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-// TODO: UPDATE TEAM
 const updateTeam = (payload) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/teams/${payload.firebaseKey}.json`, {
     method: 'PATCH',
@@ -68,7 +63,7 @@ const updateTeam = (payload) => new Promise((resolve, reject) => {
     .then((data) => resolve(data))
     .catch(reject);
 });
-// API CALL TO DELETE TEAM
+
 const deleteSingleTeam = (firebaseKey) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/teams/${firebaseKey}.json`, {
     method: 'DELETE',
@@ -81,7 +76,6 @@ const deleteSingleTeam = (firebaseKey) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-// API CALL TO GET SING TEAM'S BOOKS
 const getTeamsPlayers = (firebaseKey) => new Promise((resolve, reject) => {
   fetch(`${endpoint}/players.json?orderBy="team_id"&equalTo="${firebaseKey}"`, {
     method: 'GET',

@@ -1,5 +1,5 @@
-# Team-Roster
-[Click Here to Access App](https://team-roster-rm.netlify.app)
+# NHL-Rosters
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ef6e0241-7dfd-4a80-8940-a3b554c2f3fd/deploy-status)](https://app.netlify.com/sites/team-roster-rm/deploys)(https://team-roster-rm.netlify.app)
 
 ## App Overview
 NHL-Rosters is an application that allows a user to create players to add to their favorite hockey team. 
@@ -13,6 +13,20 @@ NHL-Rosters is an application that allows a user to create players to add to the
 - When creating a player, a user has the option of making the player's role based on the position they play and add to a team that has been created. 
 - Users can edit the information on a player, and team.
 - User is able to delete a player from the team and if the user deletes a team, all the players for that team will also be deleted. 
+
+## Video Walkthrough of NHL-Rosters
+https://www.loom.com/share/2127cab223164c2d80d756c10fdd8a05?sid=06df1103-32e7-4e2b-8d19-0c4abe3fe659
+
+## Relevant Links
+- [Check out the deployed site](https://team-roster-rm.netlify.app/)
+- [Project Board](https://github.com/users/rossm933/projects/1)
+
+## Project Screenshots
+<img width="1148" alt="screenshot1" src="images/MyTeams-Page.png">
+<img width="1148" alt="screenshot1" src="images/Teams-Page.png">
+<img width="1148" alt="screenshot1" src="images/Players-Page.png">
+<img width="1148" alt="screenshot1" src="images/Create-Team-Page.png">
+<img width="1148" alt="screenshot1" src="images/Create-Player-Page.png">
 
 ## Contributors
 - [Ross Morgan ](https://github.com/rossm933)

@@ -6,8 +6,6 @@ import Link from 'next/link';
 import { deletePlayer } from '../api/playerData';
 
 function PlayerCard({ playerObj, onUpdate }) {
-  // FOR DELETE, WE NEED TO REMOVE THE BOOK AND HAVE THE VIEW RERENDER,
-  // SO WE PASS THE FUNCTION FROM THE PARENT THAT GETS THE BOOKS
   const deleteThisPlayer = () => {
     if (window.confirm(`Delete ${playerObj.name}?`)) {
       deletePlayer(playerObj.firebaseKey).then(() => onUpdate());

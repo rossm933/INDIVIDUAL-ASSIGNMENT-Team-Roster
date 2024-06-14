@@ -20,7 +20,6 @@ export default function Teams() {
   useEffect(() => {
     getAllPrivateTeams();
     getAllPublicTeams();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
